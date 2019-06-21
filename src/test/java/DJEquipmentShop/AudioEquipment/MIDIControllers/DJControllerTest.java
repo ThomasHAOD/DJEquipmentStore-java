@@ -1,0 +1,36 @@
+package DJEquipmentShop.AudioEquipment.MIDIControllers;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class DJControllerTest {
+
+    DJController djController;
+
+    @Before
+    public void before(){
+        djController = new DJController("Native Instruments", "S4", 250.00, 400.00, false, 25.00, "Metal Weighted", true, 4, true);
+    }
+
+    @Test
+    public void hasPlates() {
+        assertEquals("Metal Weighted", djController.getPlates());
+    }
+
+    @Test
+    public void hasDrumPads() {
+        assertEquals(true, djController.getDrumPads());
+    }
+
+    @Test
+    public void getChannels() {
+        assertEquals(4, djController.getChannels());
+    }
+
+    @Test
+    public void getSoundcard() {
+        assertEquals(true, djController.getSoundcard());
+    }
+}
