@@ -1,8 +1,10 @@
 package DJEquipmentShop.AudioEquipment.MIDIControllers;
 
 import DJEquipmentShop.AudioEquipment.AudioEquipment;
+import DJEquipmentShop.Behaviours.IComputerConnectable;
+import DJEquipmentShop.Behaviours.IHireable;
 
-public abstract class MIDIController extends AudioEquipment {
+public abstract class MIDIController extends AudioEquipment implements IComputerConnectable, IHireable {
 
     private Boolean mainsPowered;
     private double hirePrice;

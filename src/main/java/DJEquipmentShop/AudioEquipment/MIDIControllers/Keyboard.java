@@ -1,5 +1,7 @@
 package DJEquipmentShop.AudioEquipment.MIDIControllers;
 
+import DJEquipmentShop.Computers.Computer;
+
 public class Keyboard extends MIDIController {
 
     private int keys;
@@ -18,5 +20,13 @@ public class Keyboard extends MIDIController {
 
     public Boolean getDrumPads() {
         return drumPads;
+    }
+
+    public String connect(Computer computer) {
+        return "Connected to " + computer.getMakeAndModel();
+    }
+
+    public double hireOut(int numberOfDaysHire) {
+        return getHirePrice()*numberOfDaysHire;
     }
 }

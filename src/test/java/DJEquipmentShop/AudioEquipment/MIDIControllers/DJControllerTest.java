@@ -1,5 +1,6 @@
 package DJEquipmentShop.AudioEquipment.MIDIControllers;
 
+import DJEquipmentShop.Computers.Computer;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -8,10 +9,13 @@ import static org.junit.Assert.*;
 public class DJControllerTest {
 
     DJController djController;
+    Computer computer;
+
 
     @Before
     public void before(){
         djController = new DJController("Native Instruments", "S4", 250.00, 400.00, false, 25.00, "Metal Weighted", true, 4, true);
+        computer = new Computer("Apple", "MacBookPro", 50);
     }
 
     @Test
@@ -32,5 +36,14 @@ public class DJControllerTest {
     @Test
     public void getSoundcard() {
         assertEquals(true, djController.getSoundcard());
+    }
+
+    @Test
+    public void canConnect() {
+        assertEquals("Connected to Apple:MacBookPro", djController.connect(computer));
+    }
+
+    @Test
+    public void hireOut() {
     }
 }

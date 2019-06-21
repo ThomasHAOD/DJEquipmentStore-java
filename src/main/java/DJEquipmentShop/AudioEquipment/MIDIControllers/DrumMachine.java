@@ -1,6 +1,11 @@
 package DJEquipmentShop.AudioEquipment.MIDIControllers;
 
-public class DrumMachine extends MIDIController {
+import DJEquipmentShop.AudioEquipment.AudioInterfaces.AudioInterface;
+import DJEquipmentShop.Behaviours.IAudioConnectable;
+import DJEquipmentShop.Behaviours.IPlayable;
+import DJEquipmentShop.Computers.Computer;
+
+public class DrumMachine extends MIDIController implements IAudioConnectable, IPlayable {
 
     private String type;
     private int pads;
@@ -29,5 +34,21 @@ public class DrumMachine extends MIDIController {
 
     public Boolean getStandAlone() {
         return standAlone;
+    }
+
+    public String connect(AudioInterface audioInterface) {
+        return "Connected to " + audioInterface.getMakeAndModel();
+    }
+
+    public String connect(Computer computer) {
+        return "Connected to " + computer.getMakeAndModel();
+    }
+
+    public double hireOut(int numberOfDaysHire) {
+        return getHirePrice()*numberOfDaysHire;
+    }
+
+    public String play() {
+        return "Ba dum dum psh";
     }
 }

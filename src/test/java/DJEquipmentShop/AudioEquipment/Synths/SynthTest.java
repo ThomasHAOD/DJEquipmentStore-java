@@ -67,4 +67,8 @@ public class SynthTest {
     }
 
 
+    @Test
+    public void play() {
+        assertEquals("Womp womp, wa wa wa", synth.play());
+    }
 }

@@ -1,5 +1,7 @@
 package DJEquipmentShop.AudioEquipment.MIDIControllers;
 
+import DJEquipmentShop.Computers.Computer;
+
 public class DJController extends MIDIController {
 
     private String plates;
@@ -30,5 +32,13 @@ public class DJController extends MIDIController {
 
     public Boolean getSoundcard() {
         return soundcard;
+    }
+
+    public String connect(Computer computer) {
+        return "Connected to " + computer.getMakeAndModel();
+    }
+
+    public double hireOut(int numberOfDaysHire) {
+        return getHirePrice()*numberOfDaysHire;
     }
 }

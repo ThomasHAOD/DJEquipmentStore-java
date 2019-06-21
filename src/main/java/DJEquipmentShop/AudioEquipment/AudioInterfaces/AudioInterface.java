@@ -1,11 +1,15 @@
 package DJEquipmentShop.AudioEquipment.AudioInterfaces;
 
 import DJEquipmentShop.AudioEquipment.AudioEquipment;
+import DJEquipmentShop.AudioEquipment.Synths.Synth;
 import DJEquipmentShop.Behaviours.IAudioConnectable;
+import DJEquipmentShop.Behaviours.IComputerConnectable;
+import DJEquipmentShop.Behaviours.IHireable;
+import DJEquipmentShop.Computers.Computer;
 
 import java.util.ArrayList;
 
-public class AudioInterface extends AudioEquipment {
+public class AudioInterface extends AudioEquipment implements IComputerConnectable, IHireable {
 
     private int channels;
     private ArrayList<IAudioConnectable> connectedDevices;
@@ -28,5 +32,20 @@ public class AudioInterface extends AudioEquipment {
 
     public double getHirePrice() {
         return hirePrice;
+    }
+
+    public String connect(Computer computer) {
+        return "Connected to " + computer.getMakeAndModel();
+    }
+
+    public void addDevice(IAudioConnectable device) {
+        if(numOfConnectedDevices() < channels){
+        connectedDevices.add(device); }
+        device.connect(this);
+    }
+
+
+    public double hireOut(int numberOfDaysHire) {
+        return hirePrice*numberOfDaysHire;
     }
 }
