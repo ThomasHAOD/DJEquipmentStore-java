@@ -1,6 +1,7 @@
 package DJEquipmentShop.AudioEquipment.MIDIControllers;
 
 import DJEquipmentShop.AudioEquipment.AudioEquipment;
+import DJEquipmentShop.Behaviours.IBuyableSellable;
 import DJEquipmentShop.Behaviours.IComputerConnectable;
 import DJEquipmentShop.Behaviours.IHireable;
 

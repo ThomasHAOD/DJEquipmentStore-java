@@ -41,4 +41,8 @@ public class DJController extends MIDIController {
     public double hireOut(int numberOfDaysHire) {
         return getHirePrice()*numberOfDaysHire;
     }
+
+    public double calculateMarkup(){
+        return this.sellPrice - this.buyPrice;
+    }
 }

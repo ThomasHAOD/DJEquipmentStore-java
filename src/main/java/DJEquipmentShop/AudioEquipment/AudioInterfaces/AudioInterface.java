@@ -48,4 +48,8 @@ public class AudioInterface extends AudioEquipment implements IComputerConnectab
     public double hireOut(int numberOfDaysHire) {
         return hirePrice*numberOfDaysHire;
     }
+
+    public double calculateMarkup(){
+        return this.sellPrice - this.buyPrice;
+    }
 }

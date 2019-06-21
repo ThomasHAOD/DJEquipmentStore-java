@@ -20,4 +20,8 @@ public class Monitor extends AudioEquipment implements IAudioConnectable {
     public String connect(AudioInterface audioInterface) {
         return "Connected to " + audioInterface.getMakeAndModel();
     }
+
+    public double calculateMarkup(){
+        return this.sellPrice - this.buyPrice;
+    }
 }

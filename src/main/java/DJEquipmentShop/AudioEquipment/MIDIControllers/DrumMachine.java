@@ -51,4 +51,8 @@ public class DrumMachine extends MIDIController implements IAudioConnectable, IP
     public String play() {
         return "Ba dum dum psh";
     }
+
+    public double calculateMarkup(){
+        return this.sellPrice - this.buyPrice;
+    }
 }

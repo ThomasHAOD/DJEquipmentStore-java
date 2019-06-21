@@ -31,4 +31,9 @@ public class Synth extends AudioEquipment implements IAudioConnectable, IPlayabl
     public String play() {
         return "Womp womp, wa wa wa";
     }
+
+    public double calculateMarkup(){
+        return this.sellPrice - this.buyPrice;
+    }
+
 }

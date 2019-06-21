@@ -1,11 +1,13 @@
 package DJEquipmentShop.AudioEquipment;
 
-public abstract class AudioEquipment {
+import DJEquipmentShop.Behaviours.IBuyableSellable;
+
+public abstract class AudioEquipment implements IBuyableSellable {
 
     private String make;
     private String model;
-    private double buyPrice;
-    private double sellPrice;
+    protected double buyPrice;
+    protected double sellPrice;
 
     public AudioEquipment(String make, String model, double buyPrice, double sellPrice){
         this.make = make;
