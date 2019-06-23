@@ -24,6 +24,11 @@ public class DJControllerTest {
     }
 
     @Test
+    public void checkIsMainsPowered(){
+        assertEquals(false, djController.isMainsPowered());
+    }
+
+    @Test
     public void hasDrumPads() {
         assertEquals(true, djController.getDrumPads());
     }
