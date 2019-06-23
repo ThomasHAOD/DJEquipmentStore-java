@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0774d302-1346-44af-88d7-c4567e801042" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DJEquipmentShop/AudioEquipment/MIDIControllers/DJControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DJEquipmentShop/AudioEquipment/MIDIControllers/DJControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DJEquipmentShop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DJEquipmentShop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DJEquipmentShop/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DJEquipmentShop/ShopTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,25 +57,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="groovy" value="23" />
-          <entry key="java" value="4538" />
+          <entry key="java" value="4874" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="23" />
-          <entry key="JAVA" value="4538" />
+          <entry key="JAVA" value="4874" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="groovy" value="1" />
-          <entry key="java" value="64" />
+          <entry key="java" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="64" />
+          <entry key="JAVA" value="65" />
         </counts>
       </usages-collector>
     </session>
@@ -84,15 +83,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/Behaviours/IHireable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+            <state relative-caret-position="337">
+              <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#624#625#0" expanded="true" />
                 <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
                 <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1250#1251#0" expanded="true" />
+                <element signature="e#1374#1375#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,25 +134,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/AudioEquipment/Monitors/Monitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/AudioEquipment/MIDIControllers/DrumMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
+            <state relative-caret-position="554">
               <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -182,10 +179,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DJEquipmentShop/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+            <state relative-caret-position="319">
+              <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1047#1048#0" expanded="true" />
+                <element signature="e#1455#1456#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -206,7 +207,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/AudioEquipment/MIDIControllers/MIDIController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -266,9 +267,9 @@
         <option value="$PROJECT_DIR$/src/main/java/DJEquipmentShop/AudioEquipment/MIDIControllers/Keyboard.java" />
         <option value="$PROJECT_DIR$/src/main/java/DJEquipmentShop/AudioEquipment/AudioInterfaces/AudioInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/DJEquipmentShop/Behaviours/IBuyableSellable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DJEquipmentShop/AudioEquipment/MIDIControllers/DJControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DJEquipmentShop/Shop.java" />
         <option value="$PROJECT_DIR$/src/test/java/DJEquipmentShop/ShopTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DJEquipmentShop/AudioEquipment/MIDIControllers/DJControllerTest.java" />
       </list>
     </option>
   </component>
@@ -354,6 +355,15 @@
               <item name="DJEquipmentShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="DJEquipmentShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DJEquipmentShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Behaviours" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DJEquipmentShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DJEquipmentShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -398,7 +408,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561193980847" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561291984622" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -498,21 +508,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DJControllerTest_canConnect - 2019.06.21 at 13h 20m 51s.xml">
-      <configuration name="DJControllerTest.canConnect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DJControllerTest_canConnect - 2019.06.21 at 13h 22m 21s.xml">
-      <configuration name="DJControllerTest.canConnect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_DJEquipmentShop - 2019.06.21 at 13h 22m 31s.xml">
-      <configuration name="All in DJEquipmentShop" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_DJEquipmentShop - 2019.06.21 at 13h 55m 53s.xml">
-      <configuration name="All in DJEquipmentShop" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_DJEquipmentShop - 2019.06.21 at 14h 07m 30s.xml">
-      <configuration name="All in DJEquipmentShop" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_DJEquipmentShop - 2019.06.21 at 14h 07m 49s.xml">
       <configuration name="All in DJEquipmentShop" configurationId="JUnit" />
     </history-entry>
@@ -528,12 +523,27 @@
     <history-entry file="All_in_DJEquipmentShop - 2019.06.21 at 14h 17m 50s.xml">
       <configuration name="All in DJEquipmentShop" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_DJEquipmentShop - 2019.06.23 at 13h 05m 47s.xml">
+      <configuration name="All in DJEquipmentShop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_DJEquipmentShop - 2019.06.23 at 13h 09m 32s.xml">
+      <configuration name="All in DJEquipmentShop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_DJEquipmentShop - 2019.06.23 at 13h 10m 00s.xml">
+      <configuration name="All in DJEquipmentShop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_DJEquipmentShop - 2019.06.23 at 13h 11m 56s.xml">
+      <configuration name="All in DJEquipmentShop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_DJEquipmentShop - 2019.06.23 at 13h 13m 07s.xml">
+      <configuration name="All in DJEquipmentShop" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -542,7 +552,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2931507" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2931507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -609,13 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/Behaviours/IHireable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -718,9 +721,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DJEquipmentShop/AudioEquipment/MIDIControllers/DJControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+          <folding>
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/AudioEquipment/MIDIControllers/MIDIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/AudioEquipment/MIDIControllers/DrumMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
+        <state relative-caret-position="554">
           <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -755,32 +779,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/Behaviours/IBuyableSellable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DJEquipmentShop/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        <state relative-caret-position="319">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/Shop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -798,23 +806,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DJEquipmentShop/AudioEquipment/MIDIControllers/DJControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/Behaviours/IBuyableSellable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-          <folding>
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/AudioEquipment/MIDIControllers/MIDIController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/Behaviours/IHireable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DJEquipmentShop/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
           </folding>
         </state>
       </provider>

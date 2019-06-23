@@ -1,6 +1,7 @@
 package DJEquipmentShop;
 
 import DJEquipmentShop.AudioEquipment.MIDIControllers.DJController;
+import DJEquipmentShop.AudioEquipment.Synths.Synth;
 import DJEquipmentShop.Behaviours.IBuyableSellable;
 import DJEquipmentShop.Behaviours.IHireable;
 
@@ -44,5 +45,19 @@ public class Shop {
             profit += device.calculateMarkup();
         }
         return profit;
+    }
+
+    public int getTotalHireStockLevel() {
+        return this.hireStock.size();
+    }
+
+    public void addToHireStock(IHireable device) {
+        this.hireStock.add(device);
+    }
+
+    public void hireDevice(IHireable device, int daysHire) {
+        int index = this.hireStock.indexOf(device);
+        this.till += device.hireOut(daysHire);
+        this.hireStock.remove(index);
     }
 }
